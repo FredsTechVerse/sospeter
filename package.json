@@ -1,0 +1,11 @@
+{
+  "name": "home",
+  "version": "1.0.0",
+  "description": "\"Sospeter's portfolio\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"Ndigirigi John +254742734120\"",
+  "license": "ISC"
+}
