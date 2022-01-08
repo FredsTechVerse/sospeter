@@ -1,0 +1,43 @@
+body {
+  background-color: #1f2235;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+#navigation {
+  height: 20vh;
+  background-color: #10121f;
+}
+
+.navbar {
+  background-color: #10121f;
+}
+
+.navbar #brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 200%;
+  background: -webkit-linear-gradient(#dfdfdf, #ff4a57);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar .a {
+  color: #dfdfdf !important;
+  font-weight: 500;
+  font-size: 120%;
+}
+
+.navbar .a:hover {
+  color: #ff4a57 !important;
+}
+
+.navbar .toggler {
+  color: #dfdfdf;
+}
+/*# sourceMappingURL=index.css.map */

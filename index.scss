@@ -1,0 +1,52 @@
+//variables
+$dark:#1f2235;
+$light:#dfdfdf;
+$rose:#ff4a57;
+//layout
+body{
+    background-color: $dark;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin:0;
+}
+//navigation bar
+#navigation{
+    height: 20vh;
+    background-color: #10121f;
+
+
+
+}
+.navbar{
+    background-color: #10121f;
+    #brand{
+        font-family: 'Poppins', sans-serif;
+
+       font-weight: 700;
+        font-size: 200%;
+        background: -webkit-linear-gradient($light, $rose);
+        background-clip: border-box;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+
+    }
+    .a{
+        color:$light !important;
+        font-weight: 500;
+        font-size:120%;
+
+
+    }
+    .a:hover{
+        color:$rose !important;
+
+
+
+    }
+    .toggler{
+        color:$light;
+    }
+}
