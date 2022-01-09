@@ -1,0 +1,57 @@
+.social li a {
+  color: #dfdfdf;
+  border: 1px solid #ff4a57;
+  border-radius: 50%;
+  font-size: 200%;
+  text-align: center;
+}
+
+.social li a i {
+  width: 49.3321px;
+  height: 66.665px;
+  border-radius: 50%;
+}
+
+.social li a:hover {
+  background-color: #ff4a57;
+}
+
+.intro .intro-head {
+  text-align: center;
+  font-weight: 700;
+}
+
+.intro .intro-body {
+  text-align: center;
+  font-weight: 300;
+  font-size: 150%;
+}
+
+.landing-space {
+  height: 4vh;
+}
+
+@media only screen and (min-width: 768px) {
+  .intro .intro-head {
+    text-align: left;
+    font-weight: 700;
+  }
+  .intro .intro-body {
+    text-align: left;
+  }
+}
+
+.landingimage {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sos1 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: 80vh;
+}
+/*# sourceMappingURL=landing.css.map */

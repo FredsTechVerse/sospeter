@@ -1,0 +1,64 @@
+//variables
+$dark:#1f2235;
+$light:#dfdfdf;
+$rose:#ff4a57;
+
+.social{
+    li{
+        a{color: $light;
+            border: 1px solid $rose;
+            border-radius: 50%;
+            font-size: 200%;
+            text-align: center;
+            i{width: 49.3321px;
+                height:66.665px;
+                border-radius: 50%;
+
+
+            }
+        }
+        a:hover{
+            background-color:$rose;
+        }
+    }
+}
+.intro{
+    .intro-head{
+        text-align: center;
+        font-weight: 700;
+    }
+    .intro-body{
+        text-align:center;
+        font-weight: 300;
+        font-size: 150%;
+
+    }
+}
+
+
+
+//laptops and desktops
+.landing-space{
+    height: 4vh;
+
+}
+@media only screen and (min-width: 768px) {
+    .intro{
+        .intro-head{
+            text-align: left;
+            font-weight: 700;
+        }
+        .intro-body{
+            text-align:left;
+        }
+    }
+    
+}
+.landingimage{
+    text-align: center;
+    justify-content: center;
+}
+    .sos1{
+        align-self: center;
+        height:80vh;
+    }

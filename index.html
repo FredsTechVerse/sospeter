@@ -2,8 +2,14 @@
 <html lang="en">
  <head>
 <meta charset="UTF-8">
+<link rel="icon" href="icon.png">
 <title>Sospeter Gitonga</title>
+
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!--Font awesome-->
+
+
+<script src="https://use.fontawesome.com/c893558c80.js"></script>
 <!--Fonts-->
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,48 +20,129 @@
 <!--Bootstrap 4-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="index.css" type="text/css" rel="stylesheet">
+<link href="./sass/landing.css" type="text/css" rel="stylesheet">
+<link href="./sass/services.css" type="text/css" rel="stylesheet">
+<link href="./sass/skills.css" type="text/css" rel="stylesheet">
+<link href="./sass/about.css" type="text/css" rel="stylesheet">
+<link href="./sass/portfolios.css" type="text/css" rel="stylesheet">
+<link href="./sass/pricing.css" type="text/css" rel="stylesheet">
+<link href="./sass/contact.css" type="text/css" rel="stylesheet">
+
+
 
 </head>
 
 <body>   
-  <div class="container-fluid">
+  <div class="container-fluid" id="container">
     <!--Navigation bar-->
     <div id="navigation ">
-    <nav  class="navbar navbar-expand-lg navbar-dark navbar-fluid pt-md-4 pb-md-4">
-      <a class="navbar-brand " id="brand" href="#">Sospeter</a>
+    <nav  class="navbar navbar-expand-lg navbar-dark navbar-fluid pt-md-4 pb-md-4 fixed-top">
+      <a class="navbar-brand " id="brand" href="index.html">Sospeter</a>
       <button class="navbar-toggler toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></spa`n>
+        <span class="navbar-toggler-icon"></span>
       </button>
     
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav  mt-2 mt-lg-0 ml-auto">
           <li class="nav-item  mr-md-5">
-            <a class="nav-link a" href="#">Home </a>
+            <a class="nav-link a" href="index.html">Home </a>
           </li>
           <li class="nav-item mr-md-5">
-            <a class="nav-link a" href="#">Services </a>
+            <a class="nav-link a" href="index.html#services">Services  </a>
           </li>
           <li class="nav-item mr-md-5">
-            <a class="nav-link a" href="#">About </a>
+            <a class="nav-link a" href="index.html#about">About </a>
           </li>
           <li class="nav-item mr-md-5">
-            <a class="nav-link a" href="#">Skills </a>
+            <a class="nav-link a"  href="index.html#skills">Skills </a>
           </li>
           <li class="nav-item mr-md-5">
-            <a class="nav-link a" href="#">Portfolios </a>
+            <a class="nav-link a" href="index.html#portfolios">Portfolios  </a>
           </li>
           <li class="nav-item mr-md-5 ">
-            <a class="nav-link a" href="#">Pricing </a>
+            <a class="nav-link a" href="index.html#pricing">Pricing </a>
           </li>
           <li class="nav-item mr-md-5 ">
-            <a class="nav-link a" href="#">Contact </a>
+            <a class="nav-link a" href="index.html#contact">Contact </a>
           </li>
 
       </div>
     </nav> 
   </div>
+  <div class="navcover"></div>
+    <!--landing section-->
+    <div id="landing">
+      <div class="row d-none d-md-block landing-space"></div>
+
+      <div class="row">
+        <div class="col landingtext mt-md-3 col-md-5 ml-md-2">
+          <div class="col col-12 social-div ml-md-2">
+            <ul class="list-inline social ml-3">
+              <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
+              <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#"><i class="fa fa-behance"></i></a></li>
+              </ul>
+          
+
+          </div>
+          <div class="col col-12 intro ml-md-2">
+            <h1 class="intro-head">I am Sospeter Gitonga.</h1>
+            <p class="intro-body  mt-md-2">I am passionate, devoted mechanical engineer, system designer and CAD CAM  and FEA expert.</p>
+
+          </div>
+
+        </div>
+        <div class="col landingimage d-none d-md-block  col-md-3 ml-1 mr-1">
+          <img src="sos1.png" class="sos1 ml-3" alt="Sospeter Gitonga"/>
+        </div>
+
+
+      </div>
+
+    </div>
+
+          <!--services-->
+          <div id="services">
+
+          </div>
+                    <!--services-->
+                    <div id="about">
+            
+                    </div>
+                                        <!--services-->
+                                        <div id="skills">
+            
+                                        </div>
+                     <!--services-->
+                    <div id="portfolios">
+            
+                    </div>
+                                        <!--services-->
+                                        <div id="pricing">
+            
+                                        </div>
+                            <!--services-->
+                    <div id="contact">
+            
+                    </div>
+          
+
+                              
+                    
+          
+
+                              
+                    
+          
+          
+
+    </div>
+
    
-  </div>     
+  
+   
     
     
     
@@ -70,6 +157,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!--index.js-->
     <script src="index.js"></script>
+    <script >
+
+    $('.navbar-nav>li>a').on('click', function(){
+      $('.navbar-collapse').collapse('hide');
+  });
+</script>
 
 </body>
 </html>

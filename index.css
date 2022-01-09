@@ -2,19 +2,23 @@ body {
   background-color: #1f2235;
   margin: 0;
   font-family: 'Poppins', sans-serif;
-}
-
-body {
-  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #dfdfdf;
 }
 
 #navigation {
-  height: 20vh;
-  background-color: #10121f;
+  font-family: 'Poppins', sans-serif;
+  background-color: #10121fb4;
 }
 
 .navbar {
-  background-color: #10121f;
+  background-color: #10121fbe;
 }
 
 .navbar #brand {
@@ -39,5 +43,15 @@ body {
 
 .navbar .toggler {
   color: #dfdfdf;
+}
+
+.navcover {
+  height: 20vh;
+}
+
+@media only screen and (min-width: 768px) {
+  .navcover {
+    height: 30vh;
+  }
 }
 /*# sourceMappingURL=index.css.map */

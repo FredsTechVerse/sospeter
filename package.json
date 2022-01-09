@@ -9,6 +9,7 @@
   "author": "\"Ndigirigi John +254742734120\"",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "bootstrap": "^5.1.3"
   }
 }
