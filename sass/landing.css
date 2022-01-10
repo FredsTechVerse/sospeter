@@ -27,8 +27,44 @@
   font-size: 150%;
 }
 
-.landing-space {
-  height: 4vh;
+.port-wha {
+  text-align: center !important;
+}
+
+.port-wha .myportfolio a {
+  text-align: center !important;
+  display: inline-block;
+  margin: 0;
+  text-decoration: none;
+  color: #dfdfdf;
+  height: 60px !important;
+  width: 100px !important;
+  font-weight: 500;
+  border-radius: 50px;
+  background-color: transparent;
+  border: 2px solid #ff4a57;
+}
+
+.port-wha .myportfolio a:hover {
+  background-color: #ff4a57;
+}
+
+.port-wha .whatsapp a {
+  text-align: center !important;
+  display: inline-block;
+  margin: 0;
+  text-decoration: none;
+  color: #dfdfdf;
+  background-color: green;
+  height: 60px !important;
+  font-weight: 500;
+  border-radius: 50px;
+  width: 100px !important;
+  font-size: 200%;
+}
+
+.port-wha .whatsapp a:hover {
+  background-color: #04032b;
 }
 
 @media only screen and (min-width: 768px) {
@@ -38,6 +74,65 @@
   }
   .intro .intro-body {
     text-align: left;
+  }
+  .port-wha {
+    text-align: center;
+  }
+  .port-wha .myportfolio a {
+    text-align: center;
+  }
+  .port-wha .whatsapp a {
+    text-align: center;
+  }
+  .intro {
+    /* The typing effect */
+    /* The typewriter cursor effect */
+  }
+  .intro h1 {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid #dfdfdf;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    -webkit-animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+            animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  @-webkit-keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @-webkit-keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #dfdfdf;
+    }
+  }
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #dfdfdf;
+    }
   }
 }
 
