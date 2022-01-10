@@ -3,18 +3,18 @@
   text-align: center;
 }
 
-.services-head {
+.section-head {
   text-align: center;
   -ms-flex-line-pack: center;
       align-content: center;
 }
 
-.services-head .services-sec {
+.section-head .section-sec {
   text-align: center;
   color: #ff4a57;
 }
 
-.services-head .services-h1 {
+.section-head .section-h1 {
   text-align: center;
   color: #dfdfdf;
 }
@@ -34,7 +34,7 @@
   background-color: #ff4a57;
   width: 100px;
   height: 4px;
-  left: 40%;
+  left: 38%;
   position: relative;
 }
 

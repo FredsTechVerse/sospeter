@@ -1,3 +1,61 @@
+//variables
+$dark:#1f2235;
+$light:#dfdfdf;
+$rose:#ff4a57;
+$back:#23263a;
+
+
+
 #about{
-    background-color: transparent;
+    background-color: $back;
+    ;
 }
+
+.about-extra{
+    div{
+        h6{
+            color: $rose;
+
+
+        }
+    }
+}
+@media only screen and (min-width: 768px) {
+    .about-sect{
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+        grid-gap: 30px;
+        background-color: $back;
+        padding: 100px;
+        padding-top: 30px;
+
+
+    }
+
+    .sos2{
+        align-self: center;
+        height:90vh;
+
+    }
+    .about-extra{
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+        grid-gap: 30px;
+        background-color: $back;
+
+        
+    }
+
+
+}
+
+.about-image{
+    text-align: center;
+    justify-content: center;
+}
+    .sos2{
+        align-self: center;
+        height:50vh;
+        -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+        mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+    }
