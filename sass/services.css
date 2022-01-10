@@ -1,4 +1,21 @@
 #services {
   background-color: transparent;
+  text-align: center;
+}
+
+.services-head {
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.services-head .services-sec {
+  text-align: center;
+  color: #ff4a57;
+}
+
+.services-head .services-h1 {
+  text-align: center;
+  color: #dfdfdf;
 }
 /*# sourceMappingURL=services.css.map */

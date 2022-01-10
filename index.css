@@ -10,6 +10,8 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   color: #dfdfdf;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 #navigation {

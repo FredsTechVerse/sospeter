@@ -1,3 +1,25 @@
+//variables
+$dark:#1f2235;
+$light:#dfdfdf;
+$rose:#ff4a57;
+
+
 #services{
     background-color: transparent;
+    text-align: center;
+}
+.services-head{
+    text-align: center;
+    align-content: center;
+    .services-sec{
+        text-align:center;
+        color:$rose;
+
+    }
+    .services-h1{
+        text-align:center;
+        color:$light;
+
+
+    }
 }
