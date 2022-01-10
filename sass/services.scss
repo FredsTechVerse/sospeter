@@ -2,6 +2,8 @@
 $dark:#1f2235;
 $light:#dfdfdf;
 $rose:#ff4a57;
+$back:#23263a;
+
 
 
 #services{
@@ -22,4 +24,65 @@ $rose:#ff4a57;
 
 
     }
+}
+
+.fa:hover {  
+    -webkit-animation: infinite-spinning 1s ease-out 0s infinite normal;
+    animation: infinite-spinning 1s ease-out 0s infinite normal;
+}
+.line{
+    justify-content: center;
+    p{background-color: red;
+        width: 50px;
+        height:5px;
+        left:50%;
+        position: relative;
+
+
+    }
+}
+
+//service body
+.services-body{
+    .service{
+        background-color: $back;
+        margin-top: 50px;
+        height: 275px;
+        padding: 10%;
+        text-align:left;
+
+        .fa{  
+            font-size: 30px;
+            height: 30px;
+
+    }
+    .service-in{
+        text-align:center;
+        .service-body{
+                    text-align:center;
+
+
+        }
+
+    }
+}
+}
+.service:hover{
+                background-color: $rose;
+
+
+}
+@media only screen and (min-width: 768px) {
+    .services-body{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 30px;
+        background-color: transparent;
+        padding: 100px;
+        padding-top: 30px;
+
+
+
+    }
+    
 }
