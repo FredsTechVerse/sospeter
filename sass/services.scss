@@ -32,10 +32,10 @@ $back:#23263a;
 }
 .line{
     justify-content: center;
-    p{background-color: red;
-        width: 50px;
-        height:5px;
-        left:50%;
+    p{background-color: $rose;
+        width: 100px;
+        height:4px;
+        left:40%;
         position: relative;
 
 
@@ -69,6 +69,7 @@ $back:#23263a;
 }
 .service:hover{
                 background-color: $rose;
+                cursor: pointer;
 
 
 }
@@ -83,6 +84,12 @@ $back:#23263a;
 
 
 
+    }
+
+    .line{
+        p{
+            left: 47%;
+        }
     }
     
 }
