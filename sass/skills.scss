@@ -32,8 +32,8 @@ $back:#23263a;
     width:100px !important;
     font-weight:500;
     border-radius: 50px;
-    background-color:transparent;
-    border:2px solid $rose;
+    background-color:$back;
+    border:1.5px solid $rose;
     text-decoration: none;
     padding: 1.3%;
 }

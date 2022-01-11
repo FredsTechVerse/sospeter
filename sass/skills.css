@@ -19,8 +19,8 @@
   width: 100px !important;
   font-weight: 500;
   border-radius: 50px;
-  background-color: transparent;
-  border: 2px solid #ff4a57;
+  background-color: #23263a;
+  border: 1.5px solid #ff4a57;
   text-decoration: none;
   padding: 1.3%;
 }
