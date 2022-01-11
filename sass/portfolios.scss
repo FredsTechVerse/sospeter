@@ -1,3 +1,230 @@
+$dark:#1f2235;
+$light:#dfdfdf;
+$rose:#ff4a57;
+$back:#23263a;
+
+//mobile
+
+
+
+
 #portfolios{
     background-color: transparent;
 }
+
+.portfolio-buttons {
+    span{            text-align:center !important;
+        margin: 0 0;
+
+
+        button{
+            text-align:center !important;
+            margin: 0;
+
+            color: $light;
+            height:45px !important;
+            font-weight:500;
+            border-radius: 50px;
+            background-color:$back;
+            border:1.5px solid $rose;
+            padding: 1.5%;
+        }
+        button:hover{
+            background-color:$rose;
+        
+        }
+                
+    }
+}
+.portfolio-container1{
+    position:relative;
+    height:300px;
+    width:100vw;
+
+    margin-bottom: 30px;
+
+   background: url(../portfolios/ABAQUS.png);
+
+    background-size: contain;
+         background-repeat: no-repeat;
+
+
+
+}
+.portfolio-container2{
+    position:relative;
+    height:300px;
+    width:100vw;
+
+    margin-bottom: 30px;
+
+   background: url(../portfolios/ABAQUS.png);
+
+    background-size: contain;
+         background-repeat: no-repeat;
+
+
+
+}
+.portfolio-container3{
+    position:relative;
+    height:300px;
+    width:100vw;
+
+    margin-bottom: 30px;
+
+   background: url(../portfolios/ABAQUS.png);
+
+    background-size: contain;
+         background-repeat: no-repeat;
+
+
+
+}
+.portfolio-container4{
+    position:relative;
+    height:300px;
+    width:100vw;
+
+    margin-bottom: 30px;
+
+   background: url(../portfolios/ABAQUS.png);
+
+    background-size: contain;
+         background-repeat: no-repeat;
+
+
+
+}
+.portfolio-container5{
+    position:relative;
+    height:300px;
+    width:100vw;
+
+    margin-bottom: 30px;
+
+   background: url(../portfolios/ABAQUS.png);
+
+    background-size: contain;
+         background-repeat: no-repeat;
+
+
+
+}
+.portfolio-container6{
+    position:relative;
+        height:300px;
+        width:250px;
+
+    margin-bottom: 30px;
+
+   background: url(../portfolios/ABAQUS.png);
+
+    background-size: contain;
+         background-repeat: no-repeat;
+
+
+
+}
+
+
+
+.portfolio{
+    height:300px;
+    width:250px;
+    background-color:rgb(131, 30, 30);
+
+
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+
+
+}
+
+.portfolio:hover{
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
+
+
+
+
+
+//large-devices
+@media only screen and (min-width: 768px) {
+  #portfolios{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 30px;
+        padding: 100px;
+        padding-top: 30px;
+        width: 100%;
+
+
+
+    }
+    .portfolio-container1{
+        height:300px;
+        width:250px;
+
+    }
+    .portfolio-container2{
+        height:300px;
+        width:250px;
+
+    }
+    .portfolio-container3{
+        height:300px;
+        width:250px;
+
+    }
+    .portfolio-container4{
+        height:300px;
+        width:250px;
+
+    }
+    .portfolio-container5{
+        height:300px;
+        width:250px;
+
+    }
+    .portfolio-container6{
+        height:300px;
+        width:250px;
+
+    }
+
+
+    .portfolio{
+        height:300px;
+        width:250px;
+        background-color:rgb(170, 43, 43);
+    
+    
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+        -moz-transition: opacity 1s ease-in-out;
+        -webkit-transition: opacity 1s ease-in-out;
+    
+    
+    }
+    
+    .portfolio:hover{
+        opacity: 1.0;
+        transition: opacity .55s ease-in-out;
+        -moz-transition: opacity .55s ease-in-out;
+        -webkit-transition: opacity .55s ease-in-out;
+    }
+    
+    
+    
+
+    
+
+    
+}
+

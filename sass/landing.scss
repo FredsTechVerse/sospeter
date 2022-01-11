@@ -21,9 +21,19 @@ $back:#23263a;
 
             }
         }
-        a:hover{
+        .f:hover{
+            background-color:#4267B2;
+        }
+        .w:hover{
+            background-color:	green;
+        }
+        .l:hover{
+            background-color:#0077b5;
+        }
+        .i:hover{
             background-color:$rose;
         }
+
     }
 }
 .intro{

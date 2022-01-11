@@ -1,4 +1,154 @@
 #portfolios {
   background-color: transparent;
 }
+
+.portfolio-buttons span {
+  text-align: center !important;
+  margin: 0 0;
+}
+
+.portfolio-buttons span button {
+  text-align: center !important;
+  margin: 0;
+  color: #dfdfdf;
+  height: 45px !important;
+  font-weight: 500;
+  border-radius: 50px;
+  background-color: #23263a;
+  border: 1.5px solid #ff4a57;
+  padding: 1.5%;
+}
+
+.portfolio-buttons span button:hover {
+  background-color: #ff4a57;
+}
+
+.portfolio-container1 {
+  position: relative;
+  height: 300px;
+  width: 100vw;
+  margin-bottom: 30px;
+  background: url(../portfolios/ABAQUS.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.portfolio-container2 {
+  position: relative;
+  height: 300px;
+  width: 100vw;
+  margin-bottom: 30px;
+  background: url(../portfolios/ABAQUS.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.portfolio-container3 {
+  position: relative;
+  height: 300px;
+  width: 100vw;
+  margin-bottom: 30px;
+  background: url(../portfolios/ABAQUS.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.portfolio-container4 {
+  position: relative;
+  height: 300px;
+  width: 100vw;
+  margin-bottom: 30px;
+  background: url(../portfolios/ABAQUS.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.portfolio-container5 {
+  position: relative;
+  height: 300px;
+  width: 100vw;
+  margin-bottom: 30px;
+  background: url(../portfolios/ABAQUS.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.portfolio-container6 {
+  position: relative;
+  height: 300px;
+  width: 250px;
+  margin-bottom: 30px;
+  background: url(../portfolios/ABAQUS.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.portfolio {
+  height: 300px;
+  width: 250px;
+  background-color: #831e1e;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+
+.portfolio:hover {
+  opacity: 1.0;
+  transition: opacity .55s ease-in-out;
+  -moz-transition: opacity .55s ease-in-out;
+  -webkit-transition: opacity .55s ease-in-out;
+}
+
+@media only screen and (min-width: 768px) {
+  #portfolios {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding: 100px;
+    padding-top: 30px;
+    width: 100%;
+  }
+  .portfolio-container1 {
+    height: 300px;
+    width: 250px;
+  }
+  .portfolio-container2 {
+    height: 300px;
+    width: 250px;
+  }
+  .portfolio-container3 {
+    height: 300px;
+    width: 250px;
+  }
+  .portfolio-container4 {
+    height: 300px;
+    width: 250px;
+  }
+  .portfolio-container5 {
+    height: 300px;
+    width: 250px;
+  }
+  .portfolio-container6 {
+    height: 300px;
+    width: 250px;
+  }
+  .portfolio {
+    height: 300px;
+    width: 250px;
+    background-color: #aa2b2b;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+  }
+  .portfolio:hover {
+    opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+  }
+}
 /*# sourceMappingURL=portfolios.css.map */
