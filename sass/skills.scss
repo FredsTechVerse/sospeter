@@ -1,3 +1,69 @@
+//variables
+$dark:#1f2235;
+$light:#dfdfdf;
+$rose:#ff4a57;
+$back:#23263a;
+
+
+
 #skills{
     background-color: transparent;
 }
+.skills{
+    h3{
+        text-align: center;
+    }
+}
+
+.expert{
+          h5{
+                         color: $rose;
+          } 
+}
+
+
+
+.hire{
+    text-align:center !important;
+    margin: 0;
+    text-decoration: none;
+    color: $light;
+    height:60px !important;
+    width:100px !important;
+    font-weight:500;
+    border-radius: 50px;
+    background-color:transparent;
+    border:2px solid $rose;
+    text-decoration: none;
+    padding: 1.3%;
+}
+.hire:hover{
+    background-color:$rose;
+    text-decoration: none;
+    color: $light;
+
+
+
+
+}
+
+
+
+
+
+
+///large devices
+@media only screen and (min-width: 768px) {
+
+
+/*.skills-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 0;
+    background-color: transparent;
+    padding: 20px;
+    padding-top: 30px;
+
+}*/
+}
+
