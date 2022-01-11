@@ -31,6 +31,103 @@
   color: #dfdfdf;
 }
 
+.details {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.bar {
+  position: relative;
+  border: 1.5px solid #ff4a57;
+  border-radius: 20px;
+}
+
+.bar div {
+  position: relative;
+  width: 0;
+  height: 7px;
+  border-radius: 8px;
+  background-color: #ff4a57;
+}
+
+.skills:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+#html-bar {
+  -webkit-animation: html-fill 2s forwards;
+          animation: html-fill 2s forwards;
+}
+
+@-webkit-keyframes html-fill {
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes html-fill {
+  100% {
+    width: 90%;
+  }
+}
+
+#css-bar {
+  -webkit-animation: css-fill 2s forwards;
+          animation: css-fill 2s forwards;
+}
+
+@-webkit-keyframes css-fill {
+  100% {
+    width: 81%;
+  }
+}
+
+@keyframes css-fill {
+  100% {
+    width: 81%;
+  }
+}
+
+#javascript-bar {
+  -webkit-animation: js-fill 2s forwards;
+          animation: js-fill 2s forwards;
+}
+
+@-webkit-keyframes js-fill {
+  100% {
+    width: 83%;
+  }
+}
+
+@keyframes js-fill {
+  100% {
+    width: 83%;
+  }
+}
+
+#jQuery-bar {
+  -webkit-animation: jQuery-fill 2s forwards;
+          animation: jQuery-fill 2s forwards;
+}
+
+@-webkit-keyframes jQuery-fill {
+  100% {
+    width: 78%;
+  }
+}
+
+@keyframes jQuery-fill {
+  100% {
+    width: 78%;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   /*.skills-container{
     display: grid;

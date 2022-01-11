@@ -47,6 +47,76 @@ $back:#23263a;
 
 }
 
+//skills bar
+.details{
+    width: 80%;
+    display: flex;  
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.bar{
+    position: relative;
+
+    border: 1.5px solid $rose;
+
+    border-radius: 20px;
+
+}
+.bar div{
+    position: relative;
+    width: 0;
+    height: 7px;
+    border-radius: 8px;
+    background-color: $rose;
+
+
+}
+
+.skills:not(:last-child){
+    margin-bottom: 15px;
+}
+
+#html-bar{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+    100%{
+        width: 90%;
+    }
+}
+
+
+#css-bar{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 81%;
+    }
+}
+
+
+#javascript-bar{
+    animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+    100%{
+        width: 83%;
+    }
+}
+
+
+#jQuery-bar{
+    animation: jQuery-fill 2s forwards;
+}
+@keyframes jQuery-fill{
+    100%{
+        width: 78%;
+    }
+} 
+
+
+
 
 
 
