@@ -24,6 +24,19 @@
   text-decoration: none;
 }
 
+.input1, .input2 {
+  background-color: black;
+  border-radius: 1px solid #ff4a57;
+  width: 450px;
+  height: 100px;
+}
+
+.input3 {
+  background-color: black;
+  border-radius: 1px solid #ff4a57;
+  width: 450px;
+}
+
 @media only screen and (min-width: 768px) {
   .cont {
     display: -ms-grid;
@@ -34,6 +47,23 @@
     padding: 100px;
     padding-top: 30px;
     width: 100%;
+  }
+  .namail {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+  }
+  .input1, .input2 {
+    background-color: black;
+    border-radius: 1px solid #ff4a57;
+    width: 450px;
+    height: 100px;
+  }
+  .input3 {
+    background-color: black;
+    border-radius: 1px solid #ff4a57;
+    width: 450px;
   }
 }
 /*# sourceMappingURL=contact.css.map */

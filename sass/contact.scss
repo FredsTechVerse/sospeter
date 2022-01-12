@@ -30,6 +30,22 @@ $back:#23263a;
                 }
             }
 }
+
+
+.input1, .input2{
+    background-color: black;
+    border-radius:1px solid $rose;
+    width:450px;
+    height:100px;
+}
+
+.input3{
+    background-color: black;
+    border-radius:1px solid $rose;
+    width:450px;
+
+
+}
 @media only screen and (min-width: 768px) {
     .cont{
         display: grid;
@@ -40,8 +56,27 @@ $back:#23263a;
         width: 100%;
     
     }
-    
 
+    .namail{
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+    }
+    .input1, .input2{
+        background-color: black;
+        border-radius:1px solid $rose;
+        width:450px;
+        height:100px;
+    }
+    
+    .input3{
+        background-color: black;
+        border-radius:1px solid $rose;
+        width:450px;
+    
+    
+    }
+    
 
 
 }
