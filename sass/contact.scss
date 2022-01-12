@@ -6,6 +6,7 @@ $back:#23263a;
 
 #contact{
     background-color: transparent;
+    margin-bottom: 10vh;
 }
 
 
@@ -33,18 +34,52 @@ $back:#23263a;
 
 
 .input1, .input2{
-    background-color: black;
+    background-color: $back;
     border-radius:1px solid $rose;
     width:450px;
-    height:100px;
+    height:50px;
+    margin-bottom: 4%;
+    
+}
+input{
+    color:white;
+}
+.submit{
+    background-color: $rose;
+    border: 2px solid $back;
+    border-radius: 10px;
+    padding:1%;
+    color: $light;
+    font-size: 16px;
+    width:100px;
+
 }
 
 .input3{
-    background-color: black;
+    background-color: $back;
+    border-radius:1px solid $rose;
+    width:450px;
+        height:50px;
+        margin-bottom: 3%;
+
+
+
+
+}
+.text-area{
+    background-color: $back;
     border-radius:1px solid $rose;
     width:450px;
 
+}
 
+.submit{
+    text-align:center;
+}
+
+form{
+    margin-left: 5%;
+    text-align: center;
 }
 @media only screen and (min-width: 768px) {
     .cont{
@@ -58,25 +93,41 @@ $back:#23263a;
     }
 
     .namail{
+        text-align:center;
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 1fr 1fr;
+        left:5%;
 
     }
     .input1, .input2{
-        background-color: black;
-        border-radius:1px solid $rose;
-        width:450px;
+        width:35vw;
         height:100px;
     }
     
     .input3{
-        background-color: black;
-        border-radius:1px solid $rose;
-        width:450px;
+        width:80vw;
+        font-size: 150%;
     
     
     }
+    .text-area{
+        width:80vw;
+        color:white;
+        font-size: 110%;
+
+
+    }
     
 
+
+}
+
+
+
+
+.leave{
+    text-align:center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 
 }

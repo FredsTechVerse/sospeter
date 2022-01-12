@@ -91,4 +91,13 @@ body {
     grid-gap: 50px;
   }
 }
+
+.footer {
+  background-color: #10121fbe;
+  height: 10vh;
+}
+
+.footer p {
+  text-align: center;
+}
 /*# sourceMappingURL=index.css.map */
