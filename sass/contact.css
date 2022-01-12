@@ -1,5 +1,39 @@
 #contact {
   background-color: transparent;
-  height: 20vh;
+}
+
+.cont-in {
+  background-color: #23263a;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 10% 90%;
+      grid-template-columns: 10% 90%;
+  grid-gap: 50px;
+  padding: 10px;
+  width: 100%;
+  margin: 3%;
+}
+
+.cont-in i {
+  color: #ff4a57;
+  font-size: 200%;
+}
+
+.cont-in .cont-in-in a {
+  color: #dfdfdf;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .cont {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    padding: 100px;
+    padding-top: 30px;
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=contact.css.map */

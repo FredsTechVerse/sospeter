@@ -1,4 +1,47 @@
+$dark:#1f2235;
+$light:#dfdfdf;
+$rose:#ff4a57;
+$back:#23263a;
+
+
 #contact{
     background-color: transparent;
-    height: 20vh;
+}
+
+
+.cont-in{
+    background-color: $back;
+
+    display: grid;
+    grid-template-columns: 10% 90% ;
+    grid-gap: 50px;
+    padding: 10px;
+    width: 100%;
+    margin: 3%;
+
+    i{
+        color:$rose;
+        font-size: 200%;;
+    }
+            .cont-in-in{
+                a{
+                    color:$light;
+                    text-decoration:none;
+                }
+            }
+}
+@media only screen and (min-width: 768px) {
+    .cont{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 50px;
+        padding: 100px;
+        padding-top: 30px;
+        width: 100%;
+    
+    }
+    
+
+
+
 }
