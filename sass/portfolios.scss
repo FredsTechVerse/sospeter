@@ -3,6 +3,90 @@ $light:#dfdfdf;
 $rose:#ff4a57;
 $back:#23263a;
 
+//design 2
+.portfolios-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.portfolios-body {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    transition: .5s ease;
+    background-color: black;
+    border-radius: 20px;
+  }
+  
+  .portfolios-body:hover .overlay {
+    opacity: 0.9;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  @media only screen and (min-width: 768px) {
+      .portfolios-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 50px;
+        padding: 100px;
+        padding-top: 30px;
+        width: 100%;
+
+
+      }
+      .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: black;
+      }
+    
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+    
+
+  }
+
+
+/*
 //mobile
 
 
@@ -38,12 +122,12 @@ $back:#23263a;
 }
 .portfolio-container1{
     position:relative;
-    height:300px;
-    width:100vw;
+    height:200px;
+    max-width:500px;
 
     margin-bottom: 30px;
 
-   background: url(../portfolios/ABAQUS.png);
+   background: url(../portfolios/a.png);
 
     background-size: contain;
          background-repeat: no-repeat;
@@ -53,12 +137,12 @@ $back:#23263a;
 }
 .portfolio-container2{
     position:relative;
-    height:300px;
-    width:100vw;
+    height:200px;
+    max-width:500px;
 
     margin-bottom: 30px;
 
-   background: url(../portfolios/ABAQUS.png);
+   background: url(../portfolios/b.png);
 
     background-size: contain;
          background-repeat: no-repeat;
@@ -68,12 +152,12 @@ $back:#23263a;
 }
 .portfolio-container3{
     position:relative;
-    height:300px;
-    width:100vw;
+    height:200px;
+    max-width:500px;
 
     margin-bottom: 30px;
 
-   background: url(../portfolios/ABAQUS.png);
+   background: url(../portfolios/c.jpeg);
 
     background-size: contain;
          background-repeat: no-repeat;
@@ -83,12 +167,13 @@ $back:#23263a;
 }
 .portfolio-container4{
     position:relative;
-    height:300px;
-    width:100vw;
+    height:100px;
+    max-width:500px;
+
 
     margin-bottom: 30px;
 
-   background: url(../portfolios/ABAQUS.png);
+   background: url(../portfolios/d.jpg);
 
     background-size: contain;
          background-repeat: no-repeat;
@@ -98,12 +183,12 @@ $back:#23263a;
 }
 .portfolio-container5{
     position:relative;
-    height:300px;
-    width:100vw;
+    height:200px;
+    max-width:500px;
 
     margin-bottom: 30px;
 
-   background: url(../portfolios/ABAQUS.png);
+   background: url(../portfolios/e.jpeg);
 
     background-size: contain;
          background-repeat: no-repeat;
@@ -113,12 +198,12 @@ $back:#23263a;
 }
 .portfolio-container6{
     position:relative;
-        height:300px;
-        width:250px;
+        height:200px;
+        max-width:500px;
 
     margin-bottom: 30px;
 
-   background: url(../portfolios/ABAQUS.png);
+   background: url(../portfolios/f.jpg);
 
     background-size: contain;
          background-repeat: no-repeat;
@@ -130,8 +215,8 @@ $back:#23263a;
 
 
 .portfolio{
-    height:300px;
-    width:250px;
+    height:100%;
+    width:100%;
     background-color:rgb(131, 30, 30);
 
 
@@ -169,39 +254,39 @@ $back:#23263a;
     }
     .portfolio-container1{
         height:300px;
-        width:250px;
+        max-width:500px;
 
     }
     .portfolio-container2{
         height:300px;
-        width:250px;
+        max-width:500px;
 
     }
     .portfolio-container3{
         height:300px;
-        width:250px;
+        max-width:500px;
 
     }
     .portfolio-container4{
         height:300px;
-        width:250px;
+        max-width:500px;
 
     }
     .portfolio-container5{
         height:300px;
-        width:250px;
+        max-width:500px;
 
     }
     .portfolio-container6{
         height:300px;
-        width:250px;
+        max-width:500px;
 
     }
 
 
     .portfolio{
-        height:300px;
-        width:250px;
+        height:100%;
+        width:100%;
         background-color:rgb(170, 43, 43);
     
     
@@ -228,3 +313,6 @@ $back:#23263a;
     
 }
 
+
+
+*/
