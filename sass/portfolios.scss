@@ -64,6 +64,29 @@ $back:#23263a;
     }
   }
 
+
+  .buttons{
+    text-align: center;
+
+      span{
+          text-align: center;
+          button{
+              background-color: transparent;
+              border: 2px solid $rose;
+              border-radius: 10px;
+              padding:1%;
+              color: $light;
+              font-size: 16px;
+
+          }
+          button:hover{
+            background-color: $rose;
+
+
+          }
+      }
+  }
+
   @media only screen and (min-width: 768px) {
       .portfolios-container{
         display: grid;

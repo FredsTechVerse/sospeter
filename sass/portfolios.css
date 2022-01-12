@@ -61,6 +61,27 @@
   color: #dfdfdf;
 }
 
+.buttons {
+  text-align: center;
+}
+
+.buttons span {
+  text-align: center;
+}
+
+.buttons span button {
+  background-color: transparent;
+  border: 2px solid #ff4a57;
+  border-radius: 10px;
+  padding: 1%;
+  color: #dfdfdf;
+  font-size: 16px;
+}
+
+.buttons span button:hover {
+  background-color: #ff4a57;
+}
+
 @media only screen and (min-width: 768px) {
   .portfolios-container {
     display: -ms-grid;

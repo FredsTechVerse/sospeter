@@ -39,12 +39,9 @@ var portfolios = [
     ]
     //mapping the object to DOM
 
+    var categoryselected;
+
     function renderAll(){
-      renderClicked=false;
-
-
-
-
     
     document.getElementById('portfolios').innerHTML = portfolios.map(portfolio => 
         `
@@ -62,9 +59,11 @@ var portfolios = [
     ).join('')
   }
 renderAll();
+
+
 function renderClicked(){
   renderAll=false;
-  document.getElementById('portfolios').innerHTML = portfolios.filter(portfolio=>portfolio.category==="CAD").map(portfolio => 
+  document.getElementById('portfolios').innerHTML = portfolios.filter(portfolio=>portfolio.category===categoryselected).map(portfolio => 
     `
     <div class="row portfolios-body" id="portfolios">
 
@@ -79,6 +78,50 @@ function renderClicked(){
 `
 ).join('')
 
+}
+function hello(){
+  console.log("hello")
+}
+
+
+function renderCad(){
+
+  categoryselected="CAD";
+
+  renderClicked();
+}
+function renderCfd(){
+  categoryselected="CFD";
+  renderClicked();
+
+}
+function renderFea(){
+  categoryselected="FEA";
+  renderClicked();
+
+}
+function renderMod(){
+  categoryselected="MODELLING";
+  renderClicked();
+
+}
+
+function renderAgain(){
+  renderAll=true;
+  document.getElementById('portfolios').innerHTML = portfolios.map(portfolio => 
+    `
+    <div class="row portfolios-body" id="portfolios">
+
+    <img src="${portfolio.image}" alt="Avatar" class="image">
+    <div class="overlay">
+      <div class="text">
+        <h6 class="category">${portfolio.category}</h6>
+        <h4 class="titl">${portfolio.title}</h4>
+      </div>
+    </div>
+</div>
+`
+).join('')
 }
 
   
