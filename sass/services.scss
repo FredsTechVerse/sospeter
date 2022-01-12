@@ -38,55 +38,146 @@ $back:#23263a;
     }
 }
 
-//service body
-.services-body{
-    .service{
-        background-color: $back;
-        margin-top: 50px;
-        height: 275px;
-        padding: 10%;
-        text-align:left;
-        transition: 0.5s;
+.services-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
 
-        .fa{  
-            font-size: 30px;
-            height: 30px;
+    
+}
+.services-body {
+    position: relative;
+    width: 100%;
+    margin-bottom:5%;
+    text-align: center;
+    background-color: $back;
+    padding: 5%;
+    border-radius: 10px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+
+  }
+  
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+    background-color: $back;
+    border-radius: 20px;
+  }
+  
+  .services-body:hover .overlay1 {
+    opacity: 1;
+  }
+  
+  .text1 {
+    position:relative;
+    top: 30%;
+    left: 55%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    padding-top: 15%;
+
+    .category1{  
+        font-weight: 700;
+        text-align: center;
+
+                color: $rose;
 
     }
-    .service-in{
-        text-align:center;
-        .service-body{
-                    text-align:center;
-
-
-        }
+    .titl1{
+        color: $light;
 
     }
-}
-}
-.service:hover{
-                background-color: $rose;
-                cursor: pointer;
+  }
+  .titles-s{
+      text-align: center;
+      margin-left: 15%;
+      
+  }
 
 
-}
-@media only screen and (min-width: 768px) {
-    .services-body{
+  .buttons{
+    text-align: center;
+
+      span{
+          text-align: center;
+          button{
+              background-color: transparent;
+              border: 2px solid $rose;
+              border-radius: 10px;
+              padding:1%;
+              color: $light;
+              font-size: 16px;
+              transition: 0.5s;
+
+
+          }
+          button:hover{
+            background-color: $rose;
+
+
+          }
+      }
+  }
+
+  @media only screen and (min-width: 768px) {
+      .services-container{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 30px;
-        background-color: transparent;
+        grid-gap: 50px;
         padding: 100px;
         padding-top: 30px;
+        width: 100%;
+        margin-left: 0;
 
 
 
-    }
-
-    .line{
+      }
+      .overlay1 {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .8s ease;
+        background-color: black;
+        text-align: center;
+      }
+    
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      .line{
         p{
             left: 47%;
         }
     }
+
     
-}
+
+  }
+
+
+    
