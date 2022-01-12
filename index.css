@@ -51,9 +51,44 @@ body {
   height: 20vh;
 }
 
+#experience {
+  padding: 100px;
+  padding-top: 30px;
+  width: 100%;
+}
+
+#experience div {
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+#experience div i {
+  color: #dfdfdf;
+  font-size: 200%;
+  font-weight: 700;
+  margin: 5%;
+}
+
+#experience div h1 {
+  font-weight: 700;
+  color: #ff4a57;
+}
+
+#experience div .h5 {
+  font-weight: 700;
+  margin: 5%;
+}
+
 @media only screen and (min-width: 768px) {
   .navcover {
     height: 30vh;
+  }
+  #experience {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
   }
 }
 /*# sourceMappingURL=index.css.map */
