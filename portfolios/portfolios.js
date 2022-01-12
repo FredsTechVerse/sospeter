@@ -1,60 +1,87 @@
-/*//lendering portfolios
+//lendering portfolios
 
 //serices object
 var portfolios = [
               {   id:1,
                   category:"FEA",
-                  image:"../portfolios/ABAQUS FEA Analysis",
-                  title:"Title"
+                  image:"../portfolios/a.png",
+                  title:"ABAQUS FEA Analysis"
               },
-              {   id:1,
+              {   id:2,
                 category:"CFD",
-                image:"../sos1.png",
-                title:"Title"
+                image:"../portfolios/b.png",
+                title:" CFD ANALYSIS"
             },
 
-            {   id:1,
+            {   id:3,
               category:"CAD",
-              image:"../portfolios/fea1.png",
-              title:"Title"
+              image:"../portfolios/c.jpeg",
+              title:"Manual Cabro Molding Machine"
           },
 
-          {   id:1,
+          {   id:4,
             category:"CAD",
-            image:"../sos1.png",
-            title:"Title"
+            image:"../portfolios/d.jpg",
+            title:"Rendered Jaw Crusher"
           },
 
-          {   id:1,
+          {   id:5,
             category:"CAD",
-            image:"../sos1.png",
-            title:"Title"
+            image:"../portfolios/e.jpeg",
+            title:"Solidworks Chair Design"
           },
 
-          {   id:1,
+          {   id:6,
             category:"MODELLING",
-            image:"../sos1.png",
-            title:"Title"
+            image:"../portfolios/f.jpg",
+            title:"Solidworks Jaw Crusher"
           }    
     ]
     //mapping the object to DOM
+
+    function renderAll(){
+      renderClicked=false;
+
+
+
+
     
-    document.getElementById('portfolios').innerHTML = portfolios.filter(portfolio=>portfolio.category==="CAD").map(portfolio => 
+    document.getElementById('portfolios').innerHTML = portfolios.map(portfolio => 
         `
-        <div class="col portfolio-container col-12" style="background: url(${portfolio.image});
-        background-size: contain;
-        background-repeat: no-repeat;);">
-        <div class=" portfolio ">
-          <h5 class="ph5" >${portfolio.category}</h5>
-          <h4 class="ph4">${portfolio.title}</h4>
+        <div class="row portfolios-body" id="portfolios">
 
+        <img src="${portfolio.image}" alt="Avatar" class="image">
+        <div class="overlay">
+          <div class="text">
+            <h6 class="category">${portfolio.category}</h6>
+            <h4 class="titl">${portfolio.title}</h4>
+          </div>
         </div>
-
-      </div>
+  </div>
 `
     ).join('')
+  }
+renderAll();
+function renderClicked(){
+  renderAll=false;
+  document.getElementById('portfolios').innerHTML = portfolios.filter(portfolio=>portfolio.category==="CAD").map(portfolio => 
+    `
+    <div class="row portfolios-body" id="portfolios">
 
-    */
+    <img src="${portfolio.image}" alt="Avatar" class="image">
+    <div class="overlay">
+      <div class="text">
+        <h6 class="category">${portfolio.category}</h6>
+        <h4 class="titl">${portfolio.title}</h4>
+      </div>
+    </div>
+</div>
+`
+).join('')
+
+}
+
+  
     
 
 

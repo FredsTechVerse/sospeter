@@ -7,11 +7,14 @@ $back:#23263a;
 .portfolios-container{
     display: flex;
     flex-direction: column;
+    margin-left: 7%;
+
     
 }
 .portfolios-body {
     position: relative;
     width: 100%;
+    margin-bottom:5%;
   }
   
   .image {
@@ -41,15 +44,24 @@ $back:#23263a;
   }
   
   .text {
-    color: white;
+      font-weight: 700;
     font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position:relative;
+    top: 15%;
+    left: 55%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    text-align: center;
+    text-align: left;
+    .category{    text-align: left;
+
+                color: $rose;
+
+    }
+    .titl{
+        color: $light;
+
+    }
   }
 
   @media only screen and (min-width: 768px) {
