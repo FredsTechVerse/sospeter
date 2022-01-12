@@ -26,10 +26,6 @@ $back:#23263a;
     }
 }
 
-.fa:hover {  
-    -webkit-animation: infinite-spinning 1s ease-out 0s infinite normal;
-    animation: infinite-spinning 1s ease-out 0s infinite normal;
-}
 .line{
     justify-content: center;
     p{background-color: $rose;
@@ -50,6 +46,7 @@ $back:#23263a;
         height: 275px;
         padding: 10%;
         text-align:left;
+        transition: 0.5s;
 
         .fa{  
             font-size: 30px;

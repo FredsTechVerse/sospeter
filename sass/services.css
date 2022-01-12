@@ -19,11 +19,6 @@
   color: #dfdfdf;
 }
 
-.fa:hover {
-  -webkit-animation: infinite-spinning 1s ease-out 0s infinite normal;
-  animation: infinite-spinning 1s ease-out 0s infinite normal;
-}
-
 .line {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -44,6 +39,8 @@
   height: 275px;
   padding: 10%;
   text-align: left;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .services-body .service .fa {

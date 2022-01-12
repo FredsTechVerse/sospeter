@@ -14,9 +14,11 @@ $back:#23263a;
             border-radius: 50%;
             font-size: 200%;
             text-align: center;
+            transition: 0.5s;
             i{width: 49.3321px;
                 height:66.665px;
                 border-radius: 50%;
+                
 
 
             }
@@ -70,6 +72,8 @@ $back:#23263a;
             background-color:transparent;
             border:2px solid $rose;
 
+            transition: 0.5s;
+
 
 
 
@@ -97,6 +101,8 @@ $back:#23263a;
                         border-radius: 50px;
                         width:100px !important;
                         font-size: 200%;
+
+                        transition: 0.5s;
 
         }
         a:hover{

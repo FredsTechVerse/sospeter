@@ -63,6 +63,8 @@ input {
 
 .submit {
   text-align: center;
+  -webkit-transition: .8s;
+  transition: .8s;
 }
 
 form {

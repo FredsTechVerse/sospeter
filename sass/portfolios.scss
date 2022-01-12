@@ -77,6 +77,8 @@ $back:#23263a;
               padding:1%;
               color: $light;
               font-size: 16px;
+              transition: 0.5s;
+
 
           }
           button:hover{
@@ -107,7 +109,7 @@ $back:#23263a;
         height: 100%;
         width: 100%;
         opacity: 0;
-        transition: .5s ease;
+        transition: .8s ease;
         background-color: black;
       }
     

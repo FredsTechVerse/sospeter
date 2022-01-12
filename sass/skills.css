@@ -23,6 +23,8 @@
   border: 1.5px solid #ff4a57;
   text-decoration: none;
   padding: 1.3%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .hire:hover {

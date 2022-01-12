@@ -37,6 +37,8 @@ body {
   color: #dfdfdf !important;
   font-weight: 500;
   font-size: 120%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .navbar .a:hover {
