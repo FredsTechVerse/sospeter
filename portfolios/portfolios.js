@@ -47,7 +47,7 @@ var portfolios = [
         `
         <div class="row portfolios-body" id="portfolios" data-aos="zoom-in-up"
         data-aos-easing="ease-in-back"
-                                          data-aos-delay="300"data-aos-duration="2000"
+                                          data-aos-delay="50"data-aos-duration="2000"
         >
 
         <img src="${portfolio.image}" alt="Avatar" class="image">
@@ -90,6 +90,7 @@ function hello(){
 function renderCad(){
 
   categoryselected="CAD";
+
 
   renderClicked();
 }
