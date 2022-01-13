@@ -59,6 +59,7 @@ input {
   background-color: #23263a;
   border-radius: 1px solid #ff4a57;
   width: 450px;
+  color: white;
 }
 
 .submit {

@@ -37,7 +37,8 @@ var services = [
     
    document.getElementById('serve').innerHTML = services.map(service => 
     `
-    <div class="row services-body" id="service">
+    <div class="row services-body" id="service" data-aos="fade-right" data-aos-easing="ease-in-back"
+    data-aos-delay="300"data-aos-duration="2000"">
     <h5 class="titles-s d-none d-md-block">${service.title}</h5>
 
 
