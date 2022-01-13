@@ -20,7 +20,7 @@ var services = [
                                 {   id:4,
                                     title:"Topology Optimization",
                                     image:"../services/d.png",
-                                    body:"Allow interactive topology optimization tool leveraging the gold standard product design and simulation to uncover design solutions through shape optimization, without the computational cost."
+                                    body:"Allow interactive topology optimization tool leveraging the gold standard product design and simulation to uncover design solutions through shape ."
                                 },
                                 {   id:5,
                                     title:"CAM Works",

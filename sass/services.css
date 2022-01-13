@@ -47,18 +47,18 @@
 .services-body {
   position: relative;
   width: 100%;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
   text-align: center;
   background-color: #23263a;
   padding: 5%;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .image {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 .overlay1 {
@@ -73,7 +73,7 @@
   -webkit-transition: .5s ease;
   transition: .5s ease;
   background-color: #23263a;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 .services-body:hover .overlay1 {
