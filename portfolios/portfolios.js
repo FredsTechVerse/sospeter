@@ -46,8 +46,7 @@ var portfolios = [
     document.getElementById('portfolios').innerHTML = portfolios.map(portfolio => 
         `
         <div class="row portfolios-body" id="portfolios" data-aos="zoom-in-up"
-        data-aos-easing="ease-in-back"
-                                          data-aos-delay="50"data-aos-duration="2000"
+        data-aos-easing="ease-in-back" data-aos-duration="1000"
         >
 
         <img src="${portfolio.image}" alt="Avatar" class="image">
@@ -68,7 +67,8 @@ function renderClicked(){
   renderAll=false;
   document.getElementById('portfolios').innerHTML = portfolios.filter(portfolio=>portfolio.category===categoryselected).map(portfolio => 
     `
-    <div class="row portfolios-body" id="portfolios">
+    <div class="row portfolios-body" id="portfolios"data-aos="zoom-in-up"
+    data-aos-easing="ease-in-back" data-aos-duration="1000">
 
     <img src="${portfolio.image}" alt="Avatar" class="image">
     <div class="overlay">
@@ -114,7 +114,8 @@ function renderAgain(){
   renderAll=true;
   document.getElementById('portfolios').innerHTML = portfolios.map(portfolio => 
     `
-    <div class="row portfolios-body" id="portfolios">
+    <div class="row portfolios-body" id="portfolios" data-aos="zoom-in-up"
+    data-aos-easing="ease-in-back" data-aos-duration="1000">
 
     <img src="${portfolio.image}" alt="Avatar" class="image">
     <div class="overlay">

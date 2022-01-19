@@ -59,14 +59,13 @@
   width: 100px !important;
   font-weight: 500;
   border-radius: 50px;
-  background-color: transparent;
-  border: 2px solid #ff4a57;
+  background-color: #ff4a57;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .port-wha .myportfolio a:hover {
-  background-color: #ff4a57;
+  background-color: #04032b;
 }
 
 .port-wha .whatsapp a {

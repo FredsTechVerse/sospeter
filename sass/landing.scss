@@ -69,8 +69,7 @@ $back:#23263a;
 
             font-weight:500;
             border-radius: 50px;
-            background-color:transparent;
-            border:2px solid $rose;
+            background-color:$rose;
 
             transition: 0.5s;
 
@@ -83,7 +82,7 @@ $back:#23263a;
 
         }
         a:hover{
-            background-color:$rose;
+            background-color:rgb(4, 3, 43);
         }
 
     }

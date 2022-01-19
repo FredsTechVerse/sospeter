@@ -3,6 +3,10 @@ $dark:#1f2235;
 $light:#dfdfdf;
 $rose:#ff4a57;
 //layout
+html{
+    background-color: $dark;
+
+}
 body{
     background-color: $dark;
     margin: 0;

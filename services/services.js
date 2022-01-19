@@ -5,27 +5,28 @@ var services = [
                                 {   id:1,
                                     title:"CAD DESIGN",
                                    image:"../services/a.png",
-                                    body:"I will create your CAD design on any Required Software Tool, both 2D, 3D parametric, and give in the required form to your satisfaction."
+                                    body:"I create all CAD designs, 2D and 3D parametric, at your timeline and specifications and to your satisfaction."
                                 },
                                 {   id:2,
                                     title:"COMPUTATIONAL FLUID DYNAMIC",
                                     image:"../services/b.png",
-                                    body:"I am Pushing the boundaries of what next. I will conduct CFD and this turns the next gen fluid flow concept into reality, faster and more efficient."
+                                    body:"I am Pushing the boundaries of what next. I conduct CFD which turns the next gen fluid flow concept into reality, faster and more efficient."
                                 },
                                 {   id:3,
                                     title:"Engineering Design Analysis",
                                     image:"../services/c.png",
-                                    body:"I will provide an analyzed engineering design including static analysis, vibration analysis and dynamic analysis to ensure the designed components ."
+                                    body:"I create excellently analyzed engineering design from static analysis, vibration analysis to dynamic analysis to ensure the designed components and system withstand real word performance loads and conditions."
                                 },
                                 {   id:4,
                                     title:"Topology Optimization",
                                     image:"../services/d.png",
-                                    body:"Allow interactive topology optimization tool leveraging the gold standard product design and simulation to uncover design solutions through shape ."
-                                },
+                                    body:
+                                    "I do topology optimization of all design parts to ensure the parts withstand all loads that they are imposed to while using minimum material size for cost optimization."                                },
                                 {   id:5,
                                     title:"CAM Works",
                                     image:"../services/e.png",
-                                    body:"I will provide computer Aided Manufacturing Designs and Machining Codes including Part setup and G&M Codes, and tool selection"
+                                    body:
+                                    "I provide computer Aided Manufacturing Designs and Machining Codes including Part setup and G&M Codes, and tool selection."
                                 },
 
 
@@ -38,7 +39,7 @@ var services = [
    document.getElementById('serve').innerHTML = services.map(service => 
     `
     <div class="row services-body" id="service" data-aos="fade-right" data-aos-easing="ease-in-back"
-    data-aos-delay="50"data-aos-duration="2000"">
+    data-aos-duration="1500"">
     <h5 class="titles-s d-none d-md-block">${service.title}</h5>
 
 

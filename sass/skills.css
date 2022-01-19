@@ -19,8 +19,7 @@
   width: 100px !important;
   font-weight: 500;
   border-radius: 50px;
-  background-color: #23263a;
-  border: 1.5px solid #ff4a57;
+  background-color: #ff4a57;
   text-decoration: none;
   padding: 1.3%;
   -webkit-transition: 0.5s;
@@ -28,7 +27,7 @@
 }
 
 .hire:hover {
-  background-color: #ff4a57;
+  background-color: #04032b;
   text-decoration: none;
   color: #dfdfdf;
 }
@@ -69,13 +68,13 @@
 
 @-webkit-keyframes html-fill {
   100% {
-    width: 90%;
+    width: 97%;
   }
 }
 
 @keyframes html-fill {
   100% {
-    width: 90%;
+    width: 97%;
   }
 }
 
@@ -86,13 +85,13 @@
 
 @-webkit-keyframes css-fill {
   100% {
-    width: 81%;
+    width: 96.5%;
   }
 }
 
 @keyframes css-fill {
   100% {
-    width: 81%;
+    width: 96.5%;
   }
 }
 
@@ -103,13 +102,13 @@
 
 @-webkit-keyframes js-fill {
   100% {
-    width: 83%;
+    width: 98%;
   }
 }
 
 @keyframes js-fill {
   100% {
-    width: 83%;
+    width: 98%;
   }
 }
 
@@ -120,13 +119,13 @@
 
 @-webkit-keyframes jQuery-fill {
   100% {
-    width: 78%;
+    width: 96%;
   }
 }
 
 @keyframes jQuery-fill {
   100% {
-    width: 78%;
+    width: 96%;
   }
 }
 
